@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: px;
+    background-color: #f3f3f3;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.sidebar img.sidebar-image {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.sidebar a {
+    display: block;
+    margin: 15px 0;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px; /* テキストサイズを調整 */
+    
+}
+.sidebar a:hover {
+    text-decoration: underline;
+    background-color: #ddd; /* ホバー時に背景色を追加 */
+    padding: 5px; /* パディングを設定 */
+    border-radius: 5px; /* 角を丸くする */
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff; /* 背景色を白に設定 */
+}
