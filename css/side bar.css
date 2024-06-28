@@ -5,6 +5,7 @@ body {
 
 .container {
     display: flex;
+    height: 100vh;
 }
 
 .sidebar {
@@ -12,7 +13,7 @@ body {
     background-color: #f3f3f3;
     padding: 20px;
     box-sizing: border-box;
-    height: 100vh;
+    height: 100ch;
 }
 
 .sidebar img.sidebar-image {
@@ -43,3 +44,4 @@ body {
     box-sizing: border-box;
     background-color: #fff; /* 背景色を白に設定 */
 }
+
